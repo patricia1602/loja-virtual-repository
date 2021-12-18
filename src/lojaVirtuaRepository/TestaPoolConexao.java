@@ -1,6 +1,10 @@
+package lojaVirtuaRepository;
+
 import java.sql.SQLException;
 
-public class TestaPoolConexao {
+import br.com.alura.jdbc.ConnectionFactory;
+
+	public class TestaPoolConexao {
 
 	public static void main(String[] args) throws SQLException {
 
