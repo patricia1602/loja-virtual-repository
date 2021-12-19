@@ -13,15 +13,15 @@ public class Produto {
 	}
 
 	public String getNome() {
-		return null;
+		return nome;
 	}
 
 	public String getDescricao() {
-		return null;
+		return descricao;
 	}
 
 	public void setId(int int1) {
-
+		this.id = int1;
 	}
 
 	@Override

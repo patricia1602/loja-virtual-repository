@@ -15,7 +15,7 @@ public class TestaInsercaoComProduto {
 
 		try (Connection connection = new ConnectionFactory().recuperarConexao()) {
 
-			String sql = "INSERT INTO PRODUTO (NOME,DESCRICAO) VALUES(?, ?)";
+			String sql = "INSERT INTO PRODUTO (NOME,DESCRICAO) VALUES (?, ?)";
 
 			try (PreparedStatement pstm = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
 
