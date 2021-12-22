@@ -21,4 +21,4 @@ public class TestaInsercaoEListagemComProduto {
 			listaDeProdutos.stream().forEach(lp -> System.out.println(lp));
 		}
 	}
-}
+} 
