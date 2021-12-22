@@ -2,7 +2,7 @@ package lojaVirtuaRepository;
 
 import java.sql.SQLException;
 
-import br.com.alura.jdbc.ConnectionFactory;
+import br.com.alura.jdbc.factory.ConnectionFactory;
 
 	public class TestaPoolConexao {
 
