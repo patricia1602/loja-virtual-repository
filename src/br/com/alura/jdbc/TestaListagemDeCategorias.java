@@ -19,15 +19,10 @@ public class TestaListagemDeCategorias {
 			List<Categoria> listaDeCategorias = categoriaDao.listarComProdutos();
 			listaDeCategorias.stream().forEach(ct -> {
 				System.out.println(ct.getNome());
-
-	
-//				try {
-//					for (Produto produto : new ProdutoDAO(connection).buscar(ct)) {
-//						System.out.println(ct.getNome() + " - " + produto.getNome());
-//					}
-//				} catch (SQLException e) {
-//					e.printStackTrace();
-//				}
+				
+					for (Produto produto : ct.getProdutos()) {
+						System.out.println(ct.getNome() + " - " + produto.getNome());
+					}
 			});
 		}
 	}
